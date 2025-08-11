@@ -230,6 +230,23 @@
             <p>Contactez-nous dès maintenant pour une consultation gratuite et un plan d’action personnalisé.</p>
             <a class="button" href="tel:+237694303798">Demandez une consultation gratuite</a>
         </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <form action="send_message.php" method="POST">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="submit-button">Envoyez le message</button>
+            </form>
+        </section>
     </main>
 
     <footer>
