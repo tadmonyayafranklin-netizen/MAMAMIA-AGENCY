@@ -1,0 +1,242 @@
+:root {
+    --primary: #2d89ef;
+    --secondary: #f5f7fa;
+    --dark: #1a1a1a;
+    --gray: #666;
+    --font: 'Inter', sans-serif;
+    --border-radius: 8px;
+    --shadow: rgba(0, 0, 0, 0.1);
+}
+
+body {
+    margin: 0;
+    font-family: var(--font);
+    background-color: var(--secondary);
+    color: var(--dark);
+    line-height: 1.6;
+}
+
+header {
+    background: var(--primary);
+    color: white;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+main {
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 10px var(--shadow);
+}
+
+section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+ul {
+    padding-left: 1.2rem;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.cta {
+    text-align: center;
+}
+
+.cta a.button {
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.cta a.button:hover {
+    background: #1c64d1;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    font-size: 0.9rem;
+    color: var(--gray);
+}
+
+.pricing-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.pricing-plan {
+    background: white;
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    width: 30%;
+    box-shadow: 0 2px 15px var(--shadow);
+    text-align: center;
+}
+
+.pricing-plan h3 {
+    font-size: 1.8rem;
+    color: var(--primary);
+}
+
+.pricing-plan .price {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin: 1rem 0;
+}
+
+.pricing-plan ul {
+    padding-left: 0;
+    list-style: none;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.pricing-plan ul li {
+    margin: 1rem 0;
+}
+
+.pricing-plan .button {
+    background: var(--primary);
+    color: white;
+    padding: 1rem 2rem;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.pricing-plan .button:hover {
+    background: #1c64d1;
+}
+
+.popular-plan {
+    border: 2px solid var(--primary);
+    background-color: #f0f8ff;
+}
+
+
+/* Contact Section */
+
+#contact {
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    text-align: center;
+    color: var(--primary);
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+/* Form Label */
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: block;
+    color: #555;
+}
+
+
+/* Input and Textarea */
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+
+/* Input and Textarea Focus */
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #3498db;
+    outline: none;
+}
+
+
+/* Submit Button */
+
+.submit-button {
+    width: 100%;
+    display: inline-block;
+    background: var(--primary);
+    color: white;
+    padding: 12px 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+}
+
+.submit-button:hover {
+    background-color: #1c64d1;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 600px) {
+    #contact {
+        padding: 20px;
+    }
+    #contact h2 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .pricing-section {
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing-plan {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+}
