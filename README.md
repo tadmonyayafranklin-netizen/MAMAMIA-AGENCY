@@ -2,11 +2,11 @@
 
 ## DESCRIPTION:
 
-MAMAMIA is a modern and creative free agency website template. With Mueller, you can immediately 
+MAMAMIA is a modern and creative free agency website template. With MAMAMIA, you can immediately 
 start creating a striking online presence that would capture everyone's attention. There is no 
 need to start from the ground up. This template includes essential features that allow you to 
 creatively introduce your business, highlight your services, showcase your best works, and much 
-more. Mueller is the perfect tool for creating a stunning website that makes your agency business 
+more. MAMAMIA is the perfect tool for creating a stunning website that makes your agency business 
 stand out!
 
 ==================================================================================================
